@@ -12,4 +12,4 @@ phases:
       - mvn package
 artifacts:
   files:
-    - target/spring-petclinic-0.0.10.war
+    - target/petclinic.war
