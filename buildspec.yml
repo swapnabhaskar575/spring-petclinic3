@@ -10,5 +10,6 @@ phases:
     commands:
       - echo Build completed on `date`
       - mvn package
-      - mkdir artifact    <-- create folder to extract war file content
-      - unzip target/petclinic.war -d artifact/    <-- unzip to that folder
+artifacts:
+  files:
+    - target/petclinic.war
