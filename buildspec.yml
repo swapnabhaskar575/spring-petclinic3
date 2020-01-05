@@ -10,8 +10,7 @@ phases:
     commands:
       - echo Build completed on `date`
       - mvn package
-      - mv target/petclinic.war /main/webapp/petclinic.war
 artifacts:
   files:
-    - petclinic.war
+    - target/petclinic.war
   discard-paths: yes
