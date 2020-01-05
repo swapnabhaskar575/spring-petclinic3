@@ -16,4 +16,4 @@ artifacts:
     - petclinic.war
     - .ebextensions/**/*
   discard-paths: yes
-  base-directory: 'target/petclinic'
+  base-directory: 'target/petclinic.war'
