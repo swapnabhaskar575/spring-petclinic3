@@ -14,7 +14,7 @@ phases:
       - unzip target/petclinic.war -d artifact/    <-- unzip to that folder
 artifacts:
   files:
-      - artifact/**/*   <-- reference all those files as the artifact
+      - artifact/*   <-- reference all those files as the artifact
     name: artifact
   cache:
     paths:
