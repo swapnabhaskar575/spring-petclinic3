@@ -354,8 +354,7 @@
                     </compilerArguments>
                     <verbose>true</verbose>
                     <source>${java.version}</source>
-                    <target>${java.version}</target>
-                    <deploy>webappDirectory</deploy>
+                    <webappDirectory>target/deploy</webappDirectory>
                     <showWarnings>true</showWarnings>
                 </configuration>
             </plugin>
