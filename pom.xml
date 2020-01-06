@@ -355,6 +355,7 @@
                     <verbose>true</verbose>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
+					<deploy>webappDirectory</deploy>
                     <showWarnings>true</showWarnings>
                 </configuration>
             </plugin>
