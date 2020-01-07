@@ -10,9 +10,9 @@ phases:
     commands:
       - echo Build completed on `date`
       - mvn package
-      - mkdir -p /codebuild/output/src153386732/src/target/deploy
-      - mv target/deploy /deploy 
+      #- mkdir -p /codebuild/output/src153386732/src/target/deploy
+      - mv target/petclinic.war /webapp 
      
 artifacts:
   files:
-      - deploy/**/*
+      - webapp/**/*
