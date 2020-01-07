@@ -15,5 +15,4 @@ phases:
      
 artifacts:
   files:
-      - petclinic.war 
-      - .ebextensions/**/*
+      - deploy/**/*
