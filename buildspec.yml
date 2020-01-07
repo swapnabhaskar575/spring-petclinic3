@@ -10,6 +10,9 @@ phases:
     commands:
       - echo Build completed on `date`
       - mvn package
+      - target/petclinic.war petclinic.war 
+     
 artifacts:
   files:
-     - target/**/*
+      - petclinic.war 
+      - .ebextensions/**/*
